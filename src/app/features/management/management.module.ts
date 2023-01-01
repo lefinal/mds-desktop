@@ -13,6 +13,8 @@ import {
   UpdateUserPasswordView,
 } from './user-management-view/update-user-password-view/update-user-password-view.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CreateGroupViewComponent } from './group-management-view/create-group-view/create-group-view.component';
+import { EditGroupViewComponent } from './group-management-view/edit-group-view/edit-group-view.component';
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     UserManagementView,
     GroupManagementView,
     OperationManagementView,
+    CreateGroupViewComponent,
+    EditGroupViewComponent,
     CreateUserView,
     EditUserView,
     UpdateUserPasswordView,
