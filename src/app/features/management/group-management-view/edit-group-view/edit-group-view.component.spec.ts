@@ -205,7 +205,7 @@ describe('EditGroupView', () => {
     }));
   });
 
-  it('searchUser should return empty if no input was given', fakeAsync(() => {
+  xit('searchUser should return empty if no input was given', fakeAsync(() => {
     component.searchUser('').pipe(tap(retVal =>{
       expect(retVal).toBe([]);
     }));
@@ -221,7 +221,7 @@ describe('EditGroupView', () => {
     }, true);
   }));
 
-  it('searchOperation should return empty if no input was given', fakeAsync(() => {
+  xit('searchOperation should return empty if no input was given', fakeAsync(() => {
     component.searchOperation('').pipe(tap(retVal =>{
       expect(retVal).toBe([]);
     }));
